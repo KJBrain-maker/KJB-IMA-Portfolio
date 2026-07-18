@@ -7,7 +7,7 @@
 <meta name="description" content="Projects, writing, and schoolwork by Krystal Joy Brown.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
     <li><a href="index.html">Home</a></li>
     <li><a href="projects.html">Projects</a></li>
     <li><a href="blog.html">Blog</a></li>
-    <li><a href="schoolwork.html">Schoolwork</a></li>
+    <li><a href="schoolwork.html">Courses</a></li>
   </ul>
 </header>
 
@@ -40,25 +40,79 @@
   </div>
 </section>
 
-<div class="tiles">
-  <a href="projects.html" class="tile reveal">
-    <span class="tile-num">01</span>
-    <h3>Projects</h3>
-    <p>Work I've built end to end — case studies, process, and outcomes.</p>
-    <span class="tile-link">View projects <span class="arrow">→</span></span>
+<section class="section-head">
+  <span class="eyebrow">Courses</span>
+  <h2>Five courses, <span class="serif-italic">one summer.</span></h2>
+  <p class="lead">Click into any course for the full run of posts, color-matched to my Notion tracker.</p>
+</section>
+
+<nav class="course-menu">
+  <a href="courses/concepts-culture-communication.html" data-course="ccc">
+    <span class="num">01</span>
+    <h3>Concepts, Culture &amp; Communication</h3>
+    <span class="course-arrow">Enter →</span>
   </a>
-  <a href="blog.html" class="tile reveal">
-    <span class="tile-num">02</span>
-    <h3>Blog</h3>
-    <p>Notes, essays, and things I couldn't stop thinking about.</p>
-    <span class="tile-link">Read the blog <span class="arrow">→</span></span>
+  <a href="courses/conversations-new-york.html" data-course="cny">
+    <span class="num">02</span>
+    <h3>Conversations New York</h3>
+    <span class="course-arrow">Enter →</span>
   </a>
-  <a href="schoolwork.html" class="tile reveal">
-    <span class="tile-num">03</span>
-    <h3>Schoolwork</h3>
-    <p>Coursework and academic projects worth keeping around.</p>
-    <span class="tile-link">See schoolwork <span class="arrow">→</span></span>
+  <a href="courses/creative-coding.html" data-course="cc">
+    <span class="num">03</span>
+    <h3>Creative Coding</h3>
+    <span class="course-arrow">Enter →</span>
   </a>
+  <a href="courses/exploratory-making.html" data-course="em">
+    <span class="num">04</span>
+    <h3>Exploratory Making</h3>
+    <span class="course-arrow">Enter →</span>
+  </a>
+  <a href="courses/interface-lab.html" data-course="il">
+    <span class="num">05</span>
+    <h3>Interface Lab</h3>
+    <span class="course-arrow">Enter →</span>
+  </a>
+</nav>
+
+<section class="section-head">
+  <span class="eyebrow">Highlighted</span>
+  <h2>A few I <span class="serif-italic">really</span> like.</h2>
+  <p class="lead">Swap these out anytime — this is just a small, hand-picked selection. The full list lives on the Projects page.</p>
+</section>
+
+<div class="highlight-grid">
+
+  <div class="highlight-card reveal" data-course="cc">
+    <div class="highlight-thumb"></div>
+    <div class="highlight-body">
+      <span class="course-tag">Creative Coding</span>
+      <h3>Self-Portrait 2.0</h3>
+      <a href="schoolwork/creative-coding-self-portrait.html" class="highlight-link">View piece →</a>
+    </div>
+  </div>
+
+  <div class="highlight-card reveal" data-course="il">
+    <div class="highlight-thumb"></div>
+    <div class="highlight-body">
+      <span class="course-tag">Interface Lab</span>
+      <h3>Fantasy Device: Eyes Are the Window to the Heart</h3>
+      <a href="schoolwork/interface-labs-fantasy-device.html" class="highlight-link">View piece →</a>
+    </div>
+  </div>
+
+  <div class="highlight-card reveal" data-course="ccc">
+    <div class="highlight-thumb"></div>
+    <div class="highlight-body">
+      <span class="course-tag">Concepts, Culture &amp; Communication</span>
+      <h3>Katja Kwastek References: Lynn Hershman Leeson</h3>
+      <a href="schoolwork/ccc-lynn-hershman-leeson.html" class="highlight-link">View piece →</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="section-foot">
+  <a href="projects.html">View all projects →</a>
 </div>
 
 <footer class="site-footer">
